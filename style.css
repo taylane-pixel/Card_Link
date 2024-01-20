@@ -1,0 +1,75 @@
+/*Font Open Sans do Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*Fundo com imagem*/
+html{
+    background-image: url(./img/fundo1.jpg);
+}
+/*Zerando estilização automatica*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /*Tira o rolamento da pagina*/
+    overflow: hidden;
+    
+}
+/*Estilização da caixa container*/
+#container{
+  height: 70vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 3.7rem;
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+ 
+ 
+}
+.content-form{
+    height: 75vh;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 40px;
+    border-radius: 15px;
+    gap: 30px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.336);
+
+}
+h1{
+    font-size: 2.3rem;
+    color: rgb(8, 22, 19);
+    /*Linha abaixo do h1*/
+    border-bottom: 3px solid #ec643b;
+}
+/*botões*/
+.btn{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+    color: #f2f2f2;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    background: #e67b5b;
+    box-shadow: 0px, 10px, 40px -12px #030e0d;
+}
+a{
+    text-decoration: none;
+}
+
+/*Estilizando midias*/
+.icon{
+    padding: 1rem;
+}
+    
